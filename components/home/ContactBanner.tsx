@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { FaWhatsapp, FaGoogle } from "react-icons/fa";
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 // Business Details from GMB
 const businessPhone = "919639211114";

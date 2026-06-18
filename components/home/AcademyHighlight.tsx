@@ -82,7 +82,7 @@ const curriculum = [
   },
 ];
 
-const cinematicEase = [0.76, 0, 0.24, 1];
+const cinematicEase: [number, number, number, number] = [0.76, 0, 0.24, 1];
 
 export default function UltraLuxuryEditorialAcademy() {
   const [activeIndex, setActiveIndex] = useState(0);

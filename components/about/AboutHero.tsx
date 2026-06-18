@@ -7,7 +7,7 @@ import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Sparkles, ArrowUpRight, Gem } from "lucide-react";
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 export default function AboutHero() {
   const containerRef = useRef(null);

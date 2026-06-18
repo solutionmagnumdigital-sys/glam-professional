@@ -50,7 +50,7 @@ const processSteps = [
   },
 ];
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 export default function LuxuryPremiumProcess() {
   const containerRef = useRef(null);
@@ -215,7 +215,7 @@ export default function LuxuryPremiumProcess() {
                           empty: { top: "100%" }, 
                           filled: { top: "-20%" } 
                         }}
-                        transition={{ duration: 1.5, ease: "easeInOut" }}
+                        transition={{ duration: 1.5, ease: [0.42, 0, 0.58, 1] as [number, number, number, number] }}
                         className="absolute left-[50%] -translate-x-1/2 w-[250%] h-[250%] rounded-[40%] bg-gradient-to-t from-[#D4B58A] to-[#C8A97E] animate-liquid z-0"
                       />
                       <motion.div

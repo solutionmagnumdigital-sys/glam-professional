@@ -42,7 +42,7 @@ const stats = [
   { value: 100, suffix: "%", label: "Prestige Rating" },
 ];
 
-const cinematicEase = [0.16, 1, 0.3, 1]; // High-end easing curve
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1]; // High-end easing curve
 
 // ================= 60FPS ANIMATED COUNTER ================= //
 const AnimatedCounter = ({ from = 0, to, suffix }: { from?: number, to: number, suffix: string }) => {

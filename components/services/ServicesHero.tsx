@@ -14,18 +14,18 @@ import {
   Brush,
 } from "lucide-react";
 
-const cinematicEase = [0.16, 1, 0.3, 1]; 
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1]; 
 
 const floatAnimation = {
   animate: {
     y: [0, -12, 0],
-    transition: { duration: 4, repeat: Infinity, ease: "easeInOut" }
+    transition: { duration: 4, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number] }
   }
 };
 const floatAnimationDelayed = {
   animate: {
     y: [0, 12, 0],
-    transition: { duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }
+    transition: { duration: 5, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number], delay: 1 }
   }
 };
 

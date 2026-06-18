@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Crown, Sparkles } from "lucide-react";
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 export default function GoogleReviews() {
   useEffect(() => {

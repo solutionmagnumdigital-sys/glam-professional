@@ -13,9 +13,9 @@ const philosophyPoints = [
   { icon: Gem, title: "Elite Standards", description: "Premium cosmetics, flawless techniques, and elevated beauty experiences." },
 ];
 
-const cinematicEase = [0.16, 1, 0.3, 1];
-const floatAnimation = { animate: { y: [0, -10, 0], transition: { duration: 4, repeat: Infinity, ease: "easeInOut" } } };
-const floatAnimationDelayed = { animate: { y: [0, 10, 0], transition: { duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 } } };
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
+const floatAnimation = { animate: { y: [0, -10, 0], transition: { duration: 4, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number] } } };
+const floatAnimationDelayed = { animate: { y: [0, 10, 0], transition: { duration: 5, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number], delay: 1 } } };
 
 export default function BeautyPhilosophy() {
   const containerRef = useRef(null);

@@ -52,7 +52,7 @@ const galleryItems = [
   },
 ];
 
-const cinematicEase = [0.25, 1, 0.5, 1];
+const cinematicEase: [number, number, number, number] = [0.25, 1, 0.5, 1];
 
 export default function LuxuryGalleryMasonry() {
   const containerRef = useRef(null);

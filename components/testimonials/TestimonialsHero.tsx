@@ -88,7 +88,7 @@ export default function TestimonialsHero() {
               y: {
                 duration: 6 + index,
                 repeat: Infinity,
-                ease: "easeInOut",
+                ease: [0.42, 0, 0.58, 1] as [number, number, number, number],
                 delay: item.delay,
               }
             }}

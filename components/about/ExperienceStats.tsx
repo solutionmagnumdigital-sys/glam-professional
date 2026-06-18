@@ -12,7 +12,7 @@ const stats = [
   { target: 20, suffix: "+", title: "Premium Services", description: "Exclusive HD makeup, Airbrush bridal, and elite salon treatments.", icon: Sparkles },
 ];
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 const AnimatedCounter = ({ from = 0, to, suffix }: { from?: number, to: number, suffix: string }) => {
   const ref = useRef(null);

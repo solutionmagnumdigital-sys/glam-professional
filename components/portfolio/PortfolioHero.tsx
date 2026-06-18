@@ -124,7 +124,7 @@ export default function PortfolioHero() {
           <div className="flex items-center gap-4 text-[#FAF7F2]/40 group cursor-pointer">
             <motion.div 
               animate={{ y: [0, 6, 0] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              transition={{ duration: 2, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number] }}
             >
               <ArrowDown className="w-4 h-4 text-[#C8A97E]" />
             </motion.div>

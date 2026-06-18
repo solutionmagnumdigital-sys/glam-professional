@@ -41,7 +41,7 @@ const testimonials = [
   },
 ];
 
-const cinematicEase = [0.25, 1, 0.5, 1];
+const cinematicEase: [number, number, number, number] = [0.25, 1, 0.5, 1];
 
 // ================= 3D TILT CARD COMPONENT ================= //
 const TiltCard = ({ item }: { item: any }) => {

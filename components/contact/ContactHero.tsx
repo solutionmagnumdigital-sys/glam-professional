@@ -218,7 +218,7 @@ export default function ContactHero() {
 
             <motion.div
               animate={{ y: [0, -12, 0] }}
-              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+              transition={{ duration: 4, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number] }}
               className="absolute -bottom-6 -left-6 hidden xl:block rounded-[30px] border border-[#C8A97E]/30 bg-white p-5 shadow-2xl z-20 group cursor-pointer"
             >
               <div className="flex items-center gap-4">

@@ -13,7 +13,7 @@ const studioImages = [
   { src: "/images/glam/glam1 (12).jpeg", title: "Luxury Makeup Lounge", subtitle: "Sikandra Studio Experience", height: "h-[700px] md:h-[900px]", span: "col-span-1" },
 ];
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 export default function StudioShowcase() {
   const containerRef = useRef(null);

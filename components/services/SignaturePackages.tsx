@@ -37,7 +37,7 @@ const packages = [
   },
 ];
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 export default function LuxurySignaturePackages() {
   const containerRef = useRef(null);

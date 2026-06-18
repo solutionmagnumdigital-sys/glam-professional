@@ -15,7 +15,7 @@ const faqs = [
   { question: "Can I schedule a bridal makeup trial?", answer: "Yes, bespoke bridal makeup trials are exclusively available at our studio to help us architect your perfect wedding-day vision." },
 ];
 
-const cinematicEase = [0.16, 1, 0.3, 1];
+const cinematicEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 export default function LuxuryFAQ() {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);

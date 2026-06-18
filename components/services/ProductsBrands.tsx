@@ -77,12 +77,12 @@ export default function LuxuryBrandsShowcase() {
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         <motion.div 
           animate={{ scale: [1, 1.05, 1], y: [0, -15, 0] }}
-          transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
+          transition={{ duration: 15, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number] }}
           className="absolute top-[-10%] right-[-10%] w-[55vw] h-[55vw] bg-[#C8A97E]/12 blur-[140px] rounded-full mix-blend-multiply will-change-transform" 
         />
         <motion.div 
           animate={{ scale: [1, 1.1, 1], y: [0, 15, 0] }}
-          transition={{ duration: 18, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+          transition={{ duration: 18, repeat: Infinity, ease: [0.42, 0, 0.58, 1] as [number, number, number, number], delay: 1 }}
           className="absolute bottom-[-10%] left-[-10%] w-[45vw] h-[45vw] bg-[#E8DCCB]/30 blur-[150px] rounded-full mix-blend-multiply will-change-transform" 
         />
         
