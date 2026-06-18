@@ -39,7 +39,7 @@ const getAestheticData = (index: number) => {
   };
 };
 
-const cinematicEase = [0.25, 1, 0.5, 1];
+const cinematicEase: [number, number, number, number] = [0.25, 1, 0.5, 1];
 
 export default function AcademyGalleryPage() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
